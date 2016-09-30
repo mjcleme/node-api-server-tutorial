@@ -164,8 +164,8 @@ First add a form to the public/index.html file.
 ```
 <h1> Enter A New Poki</h1>
 <form id="newPoki" ng-submit="addPoki()">
-  Name: <input type="text" ng-model="Name"> value=""><br>
-  Url: <input type="url" ng-model="Url"> value=""><br>
+  Name: <input type="text" ng-model="Name" value=""><br>
+  Url: <input type="url" ng-model="Url" value=""><br>
   <input type="submit" value="Submit">
 </form>
 ```
